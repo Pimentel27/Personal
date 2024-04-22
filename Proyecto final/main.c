@@ -133,7 +133,7 @@ int main()/* Esta es la funcion principal del programa */
 
             {
         fprintf(archivo, "Detalles del vehiculo:\n");
-        fprintf(archivo, "| %-25s | %-15s | %-20s | %-15s | %-15s | %-15s | %-15s | %-20s | %-20s | %-15s |\n", "Vehículo",
+        fprintf(archivo, "| %-25s | %-15s | %-20s | %-15s | %-15s | %-15s | %-15s | %-20s | %-20s | %-15s |\n", "Vehiculo",
         "Costo Vehiculo", "Promedio Uso Meses", "Consumo (L/Km)", "Costo Combustible", "Consumo (Km/Galon)", "Viaje (Km)",
         "Costo Mantenimiento", "Costo Seguro Anual", "Depreciacion");
 
@@ -154,7 +154,8 @@ int main()/* Esta es la funcion principal del programa */
             printf("\nDetalles del vehiculo:\n");
 
             printf("| %-25s | %-15s | %-20s | %-15s | %-15s | %-15s | %-15s | %-20s | %-20s | %-15s |\n",
-                "Vehículo", "Costo Vehiculo", "Promedio Uso Meses", "Consumo (L/Km)", "Costo Combustible", "Consumo (Km/Galon)",
+
+                "Vehiculo", "Costo Vehiculo", "Promedio Uso Meses", "Consumo (L/Km)", "Costo Combustible", "Consumo (Km/Galon)",
                 "Viaje (Km)", "Costo Mantenimiento", "Costo Seguro Anual", "Depreciacion");
 
                 /*Esto aqui midifica la esctructura con los valores modificado antes de imprimir */
